@@ -9,26 +9,37 @@ body {
 }
 
 /* Nav Starts*/
-.navBar {
-    align-items: center;
-    background-color: #333;
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: hidden;
 }
 
-.navLogo {
-    /* width: 200px; */
-    justify-self: left;
+.navbar a {
+    float: right;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-.navLinks {
-    display: flex;
-    list-style-type: none;
-    justify-content: right;
-
+.navbar p {
+    float: left;
+    font-weight: bold;
 }
 
-.navLinks a {
-    color: black;
-    padding: 14px 16px;
+.navbar img {
+    width: 100px;
+    height: 50px;
+}
+
+
+.navbar a:hover {
+    background-color: #000;
+}
+
+.active {
+    background-color: #04AA6D;
 }
 
 
