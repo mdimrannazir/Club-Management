@@ -1,7 +1,38 @@
-/* Home Page */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Home Page Starts*/
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
+/* Nav Starts*/
+.navBar {
+    align-items: center;
+    background-color: #333;
+}
+
+.navLogo {
+    /* width: 200px; */
+    justify-self: left;
+}
+
+.navLinks {
+    display: flex;
+    list-style-type: none;
+    justify-content: right;
+
+}
+
+.navLinks a {
+    color: black;
+    padding: 14px 16px;
+}
+
+
+/* Nav Ends*/
 
 #container {
     border: 2px solid #04AA6D;
@@ -13,6 +44,9 @@ body {
 
 .top {
     text-align: center;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .mainHeading {
@@ -41,7 +75,37 @@ button:hover {
     opacity: 0.8;
 }
 
+/* Home Page Ends*/
+
+/* Signup Page Starts*/
+
+#signUpPage {
+    background-image: url(images/background.png);
+    height: 100vh;
+}
+
+.noAccount {
+    float: right;
+}
+
+.noAccount a {
+    color: #89A0B9;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.noAccount a:hover {
+    color: #00476F;
+    text-decoration: underline;
+}
+
+/* Signup Page Ends*/
+
 /* Login Page  */
+#loginPage {
+    background-image: url(images/background.png);
+    height: 100vh;
+}
 
 .imgcontainer {
     text-align: center;
@@ -54,10 +118,11 @@ img.avatar {
 }
 
 .loginContainer {
-    width: 30%;
+    width: 25%;
     border: 2px solid #eee;
     padding: 20px;
-    margin: auto
+    margin: auto;
+    background-color: white;
 }
 
 input[type=text],
@@ -72,11 +137,12 @@ select {
 }
 
 .btnLogin {
-    background-color: #04AA6D;
+    background-color: #00476F;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
     cursor: pointer;
     width: 100%;
+    font-weight: bold;
 }
