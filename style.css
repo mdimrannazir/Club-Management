@@ -115,7 +115,9 @@ button:hover {
 
 #signUpPage {
     background-image: url(images/background.png);
-    height: 100vh;
+    height: 130vh;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .noAccount {
