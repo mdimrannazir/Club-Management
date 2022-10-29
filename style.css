@@ -15,7 +15,7 @@ body {
     overflow: hidden;
 }
 
-.navbar a {
+.navLinks {
     float: right;
     padding: 12px;
     color: white;
@@ -23,18 +23,22 @@ body {
     font-size: 17px;
 }
 
-.navbar p {
+.navbar p a {
     float: left;
     font-weight: bold;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
 }
 
 .navbar img {
     width: 100px;
-    height: 50px;
+    /* height: 50px; */
 }
 
 
-.navbar a:hover {
+.navLinks:hover {
     background-color: #000;
 }
 
@@ -45,6 +49,15 @@ body {
 
 /* Nav Ends*/
 
+.imgClub {
+    width: 100%;
+    margin: auto;
+}
+
+.imgClub img{
+    
+}
+
 #container {
     border: 2px solid #04AA6D;
     width: fit-content;
@@ -53,11 +66,8 @@ body {
     margin-top: 100px;
 }
 
-.top {
+.top{
     text-align: center;
-    margin: 0;
-    padding-top: 10px;
-    padding-bottom: 5px;
 }
 
 .mainHeading {
@@ -67,19 +77,18 @@ body {
 
 .btnContainer {
     display: flex;
-    justify-content: center;
 }
 
 .buttons button {
     background-color: #04AA6D;
     color: white;
     padding: 14px 20px;
-    margin: 8px 0;
     border: none;
     border-radius: 30px;
     cursor: pointer;
     width: 350px;
     margin: 10px;
+    font-weight: bold;
 }
 
 button:hover {
@@ -123,14 +132,13 @@ button:hover {
     margin: 24px 0 12px 0;
 }
 
-img.avatar {
+.avatar {
     width: 40%;
-    border-radius: 50%;
 }
 
 .loginContainer {
     width: 25%;
-    border: 2px solid #eee;
+    /* border: 2px solid #eee; */
     padding: 20px;
     margin: auto;
     background-color: white;

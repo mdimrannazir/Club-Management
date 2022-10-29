@@ -11,7 +11,7 @@
 
 <body>
     <section id="signUpPage">
-        <h2 class="top">SignUP Form</h2>
+        <!-- <h2 class="top">SignUP Form</h2> -->
         <div class="loginContainer signupConatiner">
             <label class="noAccount haveAccount">
                 Already have an account? <a href="login.html">Login</a>
@@ -20,16 +20,34 @@
                 <img src="images/avatar.webp" alt="Avatar" class="avatar">
             </div>
 
-            <select name="cars" id="cars">
-                <option value="volvo">Select Departement</option>
-                <option value="saab">CSE</option>
-                <option value="opel">LLB</option>
-                <option value="audi">Audi</option>
+            <select>
+                <option value="">Select Club</option>
+                <option value="">IT Club</option>
+                <option value="">Sports Club</option>
+                <option value="">Cultural Club</option>
             </select>
+            <!-- <label for="fname"><b> Full Name</b></label> -->
+            <input type="text" placeholder="Enter Name" required>
             <br>
-            <label for="uname"><b>University ID</b></label>
+            <!-- <label for="uname"><b>University ID</b></label> -->
             <input type="text" placeholder="Enter University ID" required>
-            <label for="psw"><b>Password</b></label>
+            <select>
+                <option value="">Select Departement</option>
+                <option value="">CSE</option>
+                <option value="">LLB</option>
+                <option value="">BBA</option>
+                <option value="">EEE</option>
+            </select>
+            <label for="gender"><b>Gender:</b></label>
+
+            <input type="radio" id="Male" name="gender">
+            <label for="Male">Male</label>
+                
+            <input type="radio" id="Female" name="gender">
+            <label for="Female">Female</label>
+                
+            
+            <!-- <label for="psw"><b>Password</b></label> -->
             <input type="password" placeholder="Enter Password" required>
             <br>
             <label>

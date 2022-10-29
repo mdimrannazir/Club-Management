@@ -42,8 +42,8 @@ h1 {
     background-color: rgb(87, 12, 68);
     width: 20vw;
     min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    /* display: flex; */
+    /* flex-direction: column; */
 }
 
 .side-bar .logo-name {
