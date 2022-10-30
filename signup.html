@@ -25,47 +25,51 @@
     <section id="signUpPage">
         <!-- <h2 class="top">SignUP Form</h2> -->
         <div class="loginContainer signupConatiner">
-            <label class="noAccount haveAccount">
-                Already have an account? <a href="login.html">Login</a>
-            </label>
-            <div class="imgcontainer">
-                <img src="images/avatar.webp" alt="Avatar" class="avatar">
-            </div>
+            <form action="connect.php" method="post">
+                <label class="noAccount haveAccount">
+                    Already have an account? <a href="login.html">Login</a>
+                </label>
+                <div class="imgcontainer">
+                    <img src="images/avatar.webp" alt="Avatar" class="avatar">
+                </div>
 
-            <select>
-                <option value="">Select Club</option>
-                <option value="">IT Club</option>
-                <option value="">Sports Club</option>
-                <option value="">Cultural Club</option>
-            </select>
-            <!-- <label for="fname"><b> Full Name</b></label> -->
-            <input type="text" placeholder="Enter Name" required>
-            <br>
-            <!-- <label for="uname"><b>University ID</b></label> -->
-            <input type="text" placeholder="Enter University ID" required>
-            <select>
-                <option value="">Select Departement</option>
-                <option value="">CSE</option>
-                <option value="">LLB</option>
-                <option value="">BBA</option>
-                <option value="">EEE</option>
-            </select>
-            <label for="gender"><b>Gender:</b></label>
-
-            <input type="radio" id="Male" name="gender">
-            <label for="Male">Male</label>
-
-            <input type="radio" id="Female" name="gender">
-            <label for="Female">Female</label>
-
-
-            <!-- <label for="psw"><b>Password</b></label> -->
-            <input type="password" placeholder="Enter Password" required>
-            <br>
-            <label>
-                <input type="checkbox" checked="checked"> I accept the terms & conditions
-            </label>
-            <a href="login.html"><button type="submit" class="btnLogin">Register</button></a>
+                <select>
+                    <option value="">Select Club</option>
+                    <option value="">IT Club</option>
+                    <option value="">Sports Club</option>
+                    <option value="">Cultural Club</option>
+                </select>
+                <!-- <label for="fname"><b> Full Name</b></label> -->
+                <input type="text" placeholder="Enter Full Name" required name="fullName">
+                <br>
+                <input type="email" id="" name="email">
+                <br>
+                <!-- <label for="uname"><b>University ID</b></label> -->
+                <input type="text" placeholder="Enter University ID" required name="universityID">
+                <select>
+                    <option value="">Select Departement</option>
+                    <option value="">CSE</option>
+                    <option value="">LLB</option>
+                    <option value="">BBA</option>
+                    <option value="">EEE</option>
+                </select>
+                <label for="gender"><b>Gender:</b></label>
+    
+                <input type="radio" id="Male" name="gender" value="male">
+                <label for="Male">Male</label>
+    
+                <input type="radio" id="Female" name="gender" value="female">
+                <label for="Female">Female</label>
+    
+    
+                <!-- <label for="psw"><b>Password</b></label> -->
+                <input type="password" placeholder="Enter Password" required name="password">
+                <br>
+                <label>
+                    <input type="checkbox" checked="checked"> I accept the terms & conditions
+                </label>
+                <a href="login.html"><button type="submit" class="btnLogin">Register</button></a>
+            </form>
         </div>
     </section>
 </body>
