@@ -24,7 +24,7 @@ h1 {
 }
 
 .btn {
-    background: rgb(87, 12, 68);
+    background: #45C7EE;
     color: white;
     padding: 5px 10px;
     text-align: center;
@@ -34,12 +34,12 @@ h1 {
     color: rgb(87, 12, 68);
     background: white;
     padding: 3px 8px;
-    border: 2px solid rgb(87, 12, 68);
+
 }
 
 .side-bar {
     position: fixed;
-    background-color: rgb(87, 12, 68);
+    background-color: #45C7EE;
     width: 20vw;
     min-height: 100vh;
     /* display: flex; */
@@ -63,7 +63,9 @@ h1 {
 .side-bar li:hover {
     background-color: white;
     color: rgb(87, 12, 68);
+    cursor: pointer;
 }
+
 
 .container {
     position: absolute;
@@ -83,7 +85,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0 4px 8px 0 rgba(87, 12, 68, 0.527);
+    box-shadow: 0 4px 8px 0 #b5ddea;
 
 }
 
