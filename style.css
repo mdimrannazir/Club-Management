@@ -112,7 +112,7 @@ button:hover {
 
 #signUpPage {
     background-image: url(images/background.png);
-    height: 100vh;
+    height: 113vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -159,6 +159,7 @@ button:hover {
 }
 
 input[type=text],
+[type=email],
 input[type=password],
 select {
     width: 100%;
