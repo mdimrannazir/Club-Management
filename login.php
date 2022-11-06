@@ -6,7 +6,7 @@ $showError = false;
         include 'db/_dbConnect.php';
         $uid = $_POST["universityID"];
         $userpass = $_POST["password"];
-        $existuid = false;
+        // $existuid = false;
 
         $sql = "SELECT * FROM `users8` where uid='$uid' AND userpass = '$userpass'";
         $result = mysqli_query($connect, $sql);
