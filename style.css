@@ -9,7 +9,6 @@ body {
 
 /* Home Page Starts*/
 
-
 #homeContainer {
     background-image: url(images/home-bg.jpg);
     background-repeat: no-repeat;
@@ -24,7 +23,14 @@ body {
     background-color: #0F252E;
     overflow: hidden;
     border-bottom: 4px solid #45C7EE;
+    padding-top: 8px;
 }
+
+.navIMG {
+    width: 128px;
+    margin-left: 24px
+}
+
 
 .navLinks {
     float: right;
@@ -58,7 +64,6 @@ body {
     padding: 20px;
     margin-top: 160px;
 }
-
 
 .top {
     text-align: center;
@@ -169,8 +174,26 @@ select {
     border: 1px solid #96DCE0;
 }
 
+
+.buttonlinks {
+    background-color: #58969a;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonlinks a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 .btnLogin:hover {
     background-color: #00476F;
     color: white;
     transition-delay: 0.1s;
+}
+
+/* footer design Ends*/
+.footer {
+    padding: 20px 0px;
 }
